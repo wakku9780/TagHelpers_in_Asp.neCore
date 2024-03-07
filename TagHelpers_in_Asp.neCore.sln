@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagHelpers_in_Asp.neCore", "TagHelpers_in_Asp.neCore\TagHelpers_in_Asp.neCore.csproj", "{CF893A8A-C04F-4AF0-9860-B0AA9A102F78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF893A8A-C04F-4AF0-9860-B0AA9A102F78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF893A8A-C04F-4AF0-9860-B0AA9A102F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF893A8A-C04F-4AF0-9860-B0AA9A102F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF893A8A-C04F-4AF0-9860-B0AA9A102F78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52A3D8E4-75FB-4D07-B183-2C022B8AA336}
+	EndGlobalSection
+EndGlobal
