@@ -28,7 +28,8 @@ namespace TagHelpers_in_Asp.neCore
 
 			app.MapControllerRoute(
 				name: "default",
-				pattern: "{controller=Home}/{action=Index}/{id?}");
+				pattern: "waqar/{controller=Home}/{action=Index}/{id?}");
+		
 
 			app.Run();
 		}
