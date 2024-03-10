@@ -18,6 +18,15 @@ namespace TagHelpers_in_Asp.neCore.Controllers
 		{
 			return View();
 		}
+		[HttpPost]
+        public string Index(Employee e)
+        {
+            return "Name: "+e.Name+"Gender: "+e.gender+"Age: "+e.Age+"Designation: "+e.Designation+" Salary: "+e.Salary+" Married: "+e.Married+"Description"+e.Description;
+        }
+        public string Details (int id,string name)
+        {
+            return "Id:is : "+ id +" Name is:" +name;        
+        }
         public IActionResult Contact()
         {
             return View();
